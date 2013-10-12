@@ -1,6 +1,3 @@
-from sqlalchemy import MetaData, Table
+from sqlalchemy import MetaData
 
 metadata = MetaData()
-
-card_category = Table('card_category', metadata)
-inventory = Table('inventory', metadata)
